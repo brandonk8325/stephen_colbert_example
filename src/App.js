@@ -1,24 +1,44 @@
-import logo from './logo.svg';
+import {React, useEffect, useState, useRef} from "react";
+import HeaderBar from "./Components/Header";
+import Navbar from "./Components/Navbar";
+import FooterBar from "./Components/Footer";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+import About from "./Pages/about";
+import Resume from "./Pages/resume";
+import Contact from "./Pages/contact";
+import Portfolio from "./Pages/portfolio";
+import Index from "./Pages/index";
 import './App.css';
 
 function App() {
+let container = useRef(null);
+let [height, setHeight] = useState(null);
+useEffect(() => setHeight(container.current.offsetHeight));
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <div ref = {container}>
+        <HeaderBar />
+        <Navbar />
+        <Routes>
+            <Route path = "/" element ={<Index />} />
+            <Route path="/about" element={<About/>} />
+            <Route
+                path="/portfolio"
+                element={<Portfolio />}
+            />
+            <Route path="/resume" element={<Resume/>} />
+            <Route
+                path="/contact"
+                element={<Contact />}
+            />
+        </Routes>
+        <FooterBar />
+        </div>
+    </Router>
   );
 }
 
