@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Header, HeaderMenu, HeaderLink } from "./HeaderElements";
+import { Header, HeaderLink } from "./HeaderElements";
  
 const HeaderBar = () => {
     return (

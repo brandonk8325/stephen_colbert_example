@@ -1,4 +1,4 @@
-import {React, useEffect, useState, useRef} from "react";
+import {React, useRef} from "react";
 import HeaderBar from "./Components/Header";
 import Navbar from "./Components/Navbar";
 import FooterBar from "./Components/Footer";
@@ -16,8 +16,6 @@ import './App.css';
 
 function App() {
 let container = useRef(null);
-let [height, setHeight] = useState(null);
-useEffect(() => setHeight(container.current.offsetHeight));
   return (
     <Router>
         <div ref = {container}>

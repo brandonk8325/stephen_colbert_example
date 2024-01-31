@@ -1,6 +1,5 @@
 import React from "react";
- import FooterBar from "../Components/Footer";
-const About = ({height}) => {
+const About = () => {
     return (
         <>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0", paddingTop: "20px", paddingBottom: "10px"}}>

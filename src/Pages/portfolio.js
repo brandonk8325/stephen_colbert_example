@@ -3,15 +3,6 @@ import React from "react";
 import Video1 from "../static/video_1.mp4";
 import Video2 from "../static/video_2.mp4";
 import Video3 from "../static/video_3.mp4";
-import Video4 from "../static/video_4.mp4";
-import Video5 from "../static/video_5.mp4";
-import Video6 from "../static/video_6.mp4";
-{/*import Image1 from "../static/Image_1.png";
-import Image2 from "../static/Image_2.png";
-import Image3 from "../static/Image_3.jpg";
-import Image4 from "../static/Image_4.jpg";
-import Image5 from "../static/Image_5.jpg";
-import Image6 from "../static/Image_6.jpg";*/}
 
 const Portfolio = () => {
     return (

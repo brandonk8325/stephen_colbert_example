@@ -1,6 +1,5 @@
 
 import React from "react";
-import Grid from '@mui/material/Grid';
 import { Nav, NavLink, NavMenu } from "./NavbarElements";
  
 const Navbar = () => {
