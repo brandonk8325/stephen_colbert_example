@@ -1,5 +1,6 @@
 import {React, useState} from "react";
 import {Document, Page, pdfjs } from "react-pdf";
+
 import Image from "../static/headshot.jpg";
 import ResumePic from "../static/Resume.pdf";
 
