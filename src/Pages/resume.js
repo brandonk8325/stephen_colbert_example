@@ -1,11 +1,10 @@
 import {React, useState} from "react";
 import {Document, Page, pdfjs } from "react-pdf";
-
 import Image from "../static/headshot.jpg";
 import ResumePic from "../static/Resume.pdf";
 
 const Resume = ({height}) => {
-    pdfjs.GlobalWorkerOptions.workerSrc = new URL('pdfjs-dist/build/pdf.worker.min.js', import.meta.url,).toString();
+    pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
     const [showImage, setShowImage] = useState(false)
     const [showDocument, setShowDocument] = useState(true)
     const [displayVal, setDisplayVal] = useState("flex");
