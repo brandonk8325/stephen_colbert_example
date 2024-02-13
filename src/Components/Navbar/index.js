@@ -20,6 +20,12 @@ const Navbar = () => {
                         <NavLink to="/contact" activeStyle>
                             Contact
                         </NavLink>
+                        <NavLink to="/instagram" activeStyle>
+                            Instagram
+                        </NavLink>
+                        <NavLink to="/form" activeStyle>
+                            Form
+                        </NavLink>
                     </NavMenu>
                 </div>
             </Nav>

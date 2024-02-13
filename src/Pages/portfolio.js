@@ -6,20 +6,20 @@ import Video3 from "../static/video_3.mp4";
 
 const Portfolio = () => {
     return (
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0"}}>
-            <div style = {{paddingTop: "1.5%", paddingBottom: "1.5%",  display: "flex", alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0"}}>
-                <div style = {{paddingRight: "1.5%",paddingBottom: "1.5%", paddingTop: "1.5%", width: "50%"}}>
-                    <div style = {{paddingLeft: "50%", width: "100%", paddingBottom: "10%"}}>
-                        <video src = {Video1}  width = "50%" controls></video>
+        <div style={{ alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0"}}>
+            <div style = {{display: "flex", paddingTop: "1.5%", paddingBottom: "1.5%",   alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0"}}>
+                <div style = {{paddingRight: "1.5%", paddingBottom: "1.5%",  width: "50%"}}>
+                    <div style = {{paddingLeft: "calc(50% - 75px)", width: "100%", paddingBottom: "10%", display: "block"}}>
+                        <video src = {Video1}  height = "300px" controls></video>
                     </div>
-                    <div style = {{paddingLeft: "50%", width: "100%", paddingBottom: "10%"}}>
-                        <video src = {Video2} width = "50%" controls></video>
+                    <div style = {{paddingLeft: "calc(50% - 75px)", width: "100%", paddingBottom: "10%"}}>
+                        <video src = {Video2} height = "300px" controls></video>
                     </div>
-                    <div style = {{paddingLeft: "50%", width: "100%"}}>
-                        <video src = {Video3} width = "50%" controls></video>
+                    <div style = {{paddingLeft: "calc(50% - 75px)", width: "100%"}}>
+                        <video src = {Video3} height = "300px" controls></video>
                     </div>
                 </div>
-                <div style = {{paddingLeft: "1.5%", paddingBottom: "1.5%", paddingTop: "1.5%", width: "50%"}}>
+                <div style = {{paddingLeft: "1.5%", paddingBottom: "1.5%", width: "50%", display: "block"}}>
                     <div style = {{paddingLeft: "0%", width: "100%", paddingBottom: "10%"}}>
                         <iframe width="50%" height = "300px" src="https://www.youtube.com/embed/oACoGd4AZwk?si=QXiAjXEsimE76lP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div> 
