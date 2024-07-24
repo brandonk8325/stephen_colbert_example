@@ -38,13 +38,13 @@ const Resume = ({height}) => {
             </div>
         </div>
         {showImage ? 
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0"}}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0", paddingBottom: "50px"}}>
                 <img src = {Image} alt = "" width = "400px"/>
             </div>
         : null}
 
         <div style = {{display: displayVal}}> 
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0"}}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0", paddingBottom: "50px"}}>
                 <Document file = {ResumePic}>
                     <Page pageNumber={1} width = "400" renderAnnotationLayer={false} renderTextLayer={false}/>
                 </Document>

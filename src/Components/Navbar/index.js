@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <>
             <Nav>
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0"}}>
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "10vh", width: "100%", backgroundColor: "#fff5e0"}}>
                     <NavMenu>
                         <NavLink to="/about" activeStyle>
                             About
