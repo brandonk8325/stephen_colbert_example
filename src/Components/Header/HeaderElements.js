@@ -3,7 +3,6 @@ import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 export const Header = styled.header`
     background: #fff5e0;
-    height: 120px;
     padding: 0.rem;
     //calc(100vw - / 2);
 `;

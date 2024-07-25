@@ -6,6 +6,7 @@ import Video3 from "../static/video_3.mp4";
 
 const Portfolio = () => {
     return (
+        <div style={{backgroundColor: "#fff5e0", minHeight: "70vh", position: "relative"}}>
         <div style={{ alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0"}}>
             <div style = {{display: "flex", paddingTop: "1.5%", paddingBottom: "1.5%",   alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0"}}>
                 <div style = {{paddingRight: "1.5%", paddingBottom: "1.5%",  width: "50%"}}>
@@ -39,7 +40,7 @@ const Portfolio = () => {
                         <video src = {Video6} width = "28.5%" controls></video>
                     </div>
                 </div>*/}
-
+            </div>
 
             </div>
         </div>

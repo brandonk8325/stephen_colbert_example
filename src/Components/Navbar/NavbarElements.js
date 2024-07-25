@@ -18,6 +18,9 @@ export const NavLink = styled(Link)`
     &.active {
         color: #e13a38;
     }
+    &:hover{
+        color: #0f122e;
+    }
 `;
  
  

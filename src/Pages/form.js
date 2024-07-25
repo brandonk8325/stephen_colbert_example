@@ -1,7 +1,7 @@
 import React from "react";
 const Form = () => {
     return ( 
-        <div style={{backgroundColor: "#fff5e0", height: "70vh", position: "relative"}}>
+        <div style={{backgroundColor: "#fff5e0", minHeight: "70vh", position: "relative"}}>
             <div style={{margin: "0", position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}>
             <div class = "container" style = {{height: "100%", backgroundColor: "fff5e0", backgroundSize: "cover", paddingTop: "30px", paddingBottom: "30px"}}>
                 <form class="thisForm" id = "myForm" name="contact" method="POST" action = "/contact" style = {{textAlign: "center", backgroundColor: "#fff5e0", padding: "0px", marginBottom: "0px"}} netlify>
