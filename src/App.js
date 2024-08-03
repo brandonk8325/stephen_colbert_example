@@ -13,8 +13,6 @@ import Contact from "./Pages/contact";
 import Portfolio from "./Pages/portfolio";
 import Index from "./Pages/index";
 import './App.css';
-import Instagram from "./Pages/instagram";
-import Form from "./Pages/form";
 
 function App() {
 let container = useRef(null);
@@ -35,8 +33,6 @@ let container = useRef(null);
                 path="/contact"
                 element={<Contact />}
             /> 
-            <Route path = "/instagram" element = {<Instagram />} />
-            <Route path = "/form" element = {<Form />} />
         </Routes>
         <FooterBar />
         </div>
