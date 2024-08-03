@@ -6,32 +6,32 @@ import Video3 from "../static/video_3.mp4";
 
 const Portfolio = () => {
     return (
-        <div style={{backgroundColor: "#fff5e0", minHeight: "70vh", position: "relative"}}>
-        <div style={{ alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0"}}>
+        <div style={{backgroundColor: "#fff5e0", minHeight: "70vh"}}>\
+        <div style={{ alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0", display: "block"}}>
             <div style = {{display: "flex", paddingTop: "1.5%", paddingBottom: "1.5%",   alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0"}}>
-                <div style = {{paddingRight: "1.5%", paddingBottom: "1.5%",  width: "50%"}}>
-                    <div style = {{paddingLeft: "calc(50% - 75px)", width: "100%", paddingBottom: "10%", display: "block"}}>
-                        <video src = {Video1}  height = "300px" controls></video>
+                <div style = {{paddingRight: "1.5%", paddingBottom: "1.5%",  width: "50%", display: "grid"}}>
+                    <div style = {{paddingBottom: "10%", marginLeft: "auto", marginRight: "0"}}>
+                    <iframe width="450px" height = "300px" src="https://www.youtube.com/embed/oACoGd4AZwk?si=QXiAjXEsimE76lP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div style = {{paddingLeft: "calc(50% - 75px)", width: "100%", paddingBottom: "10%"}}>
-                        <video src = {Video2} height = "300px" controls></video>
+                    <div style = {{marginLeft: "auto", marginRight: "0",  paddingBottom: "10%"}}>
+                    <iframe width="450px" height = "300px" src="https://www.youtube.com/embed/oACoGd4AZwk?si=QXiAjXEsimE76lP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div style = {{paddingLeft: "calc(50% - 75px)", width: "100%"}}>
-                        <video src = {Video3} height = "300px" controls></video>
+                    <div style = {{marginLeft: "auto", marginRight: "0"}}>
+                    <iframe width="450px" height = "300px" src="https://www.youtube.com/embed/oACoGd4AZwk?si=QXiAjXEsimE76lP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div style = {{paddingLeft: "1.5%", paddingBottom: "1.5%", width: "50%", display: "block"}}>
-                    <div style = {{paddingLeft: "0%", width: "100%", paddingBottom: "10%"}}>
-                        <iframe width="50%" height = "300px" src="https://www.youtube.com/embed/oACoGd4AZwk?si=QXiAjXEsimE76lP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div style = {{paddingLeft: "1.5%", paddingBottom: "1.5%", width: "50%", display: "grid"}}>
+                    <div style = {{paddingBottom: "10%"}}>
+                        <iframe width="450px" height = "300px" src="https://www.youtube.com/embed/oACoGd4AZwk?si=QXiAjXEsimE76lP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div> 
-                    <div style = {{paddingLeft: "0%", width: "100%", paddingBottom: "10%"}}>
-                        <iframe width="50%" height = "300px" src="https://www.youtube.com/embed/PcNRQKRJX1E?si=dbeBbMLv_h6_g5pj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div style = {{paddingBottom: "10%"}}>
+                        <iframe width="450px" height = "300px" src="https://www.youtube.com/embed/PcNRQKRJX1E?si=dbeBbMLv_h6_g5pj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div style = {{paddingLeft: "0%", width: "100%"}}>
-                        <iframe width="50%" height = "300px" src="https://www.youtube.com/embed/kmAKZFPpbOU?si=OnomRpAFOu03qUW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div style = {{}}>
+                        <iframe width="450px" height = "300px" src="https://www.youtube.com/embed/kmAKZFPpbOU?si=OnomRpAFOu03qUW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
-
+                </div>
                 {/* <div style = {{paddingBottom: "1.5%", paddingTop: "1.5%"}}>
                     <div style = {{paddingLeft: "20%", paddingRight: "1.5%"}}>
                         <video src = {Video5} width = "28.5%" controls></video>
@@ -41,9 +41,7 @@ const Portfolio = () => {
                     </div>
                 </div>*/}
             </div>
-
             </div>
-        </div>
 
     );
 };

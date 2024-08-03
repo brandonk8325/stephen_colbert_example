@@ -10,10 +10,11 @@ const FooterBar = () => {
         <>
             <Footer style={{ display: 'flex', alignItems: 'center',justifyContent: 'center', height: `10vh`}}>
                 <FooterMenu >
-                    <a href = "https://instagram.com"><img src = {Instagram} alt = "" width = "25px" style = {{paddingLeft: "10px", paddingRight: "10px", filter: "invert(14%) sepia(51%) saturate(1830%) hue-rotate(213deg) brightness(92%) contrast(99%)"}}/></a>
-                    <a href = "https://facebook.com"><img src = {Facebook} alt = "" width = "25px"  style = {{paddingLeft: "10px", paddingRight: "10px", filter: "invert(14%) sepia(51%) saturate(1830%) hue-rotate(213deg) brightness(92%) contrast(99%)"}}/></a>
-                    <a href = "https://twitter.com"><img src = {Twitter} alt = "" width = "25px"  style = {{paddingLeft: "10px", paddingRight: "10px", filter: "invert(14%) sepia(51%) saturate(1830%) hue-rotate(213deg) brightness(92%) contrast(99%)"}}/></a>
-                    <a href = "https://youtube.com"><img src = {Youtube} alt = "" width = "25px"  style = {{paddingLeft: "10px", paddingRight: "10px", filter: "invert(14%) sepia(51%) saturate(1830%) hue-rotate(213deg) brightness(92%) contrast(99%)"}}/></a>
+
+                    <a href = "https://instagram.com"><img src = {Instagram} alt = "" height = "35vh" style = {{paddingLeft: "2vh", paddingRight: "2vh", filter: "invert(14%) sepia(51%) saturate(1830%) hue-rotate(213deg) brightness(92%) contrast(99%)"}}/></a>
+                    <a href = "https://facebook.com"><img src = {Facebook} alt = "" height = "30vh"  style = {{paddingLeft: "2vh", paddingRight: "2vh", filter: "invert(14%) sepia(51%) saturate(1830%) hue-rotate(213deg) brightness(92%) contrast(99%)"}}/></a>
+                    <a href = "https://twitter.com"><img src = {Twitter} alt = "" height = "30vh"  style = {{paddingLeft: "2vh", paddingRight: "2vh", filter: "invert(14%) sepia(51%) saturate(1830%) hue-rotate(213deg) brightness(92%) contrast(99%)"}}/></a>
+                    <a href = "https://youtube.com"><img src = {Youtube} alt = "" height = "30vh"  style = {{paddingLeft: "2vh", paddingRight: "2vh", filter: "invert(14%) sepia(51%) saturate(1830%) hue-rotate(213deg) brightness(92%) contrast(99%)"}}/></a>
                 </FooterMenu>
             </Footer>
         </>

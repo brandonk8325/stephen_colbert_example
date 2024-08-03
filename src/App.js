@@ -1,6 +1,6 @@
 import {React, useRef} from "react";
 import HeaderBar from "./Components/Header";
-import Navbar from "./Components/Navbar";
+import NavbarS from "./Components/Navbar";
 import FooterBar from "./Components/Footer";
 import {
   BrowserRouter as Router,
@@ -22,7 +22,7 @@ let container = useRef(null);
     <Router>
         <div ref = {container}>
         <HeaderBar />
-        <Navbar />
+        <NavbarS />
         <Routes>
             <Route path = "/" element ={<Index />} />
             <Route path="/about" element={<About/>} />
