@@ -15,7 +15,7 @@ const NavbarS = () => {
 <div  style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "10vh", width: "100%", backgroundColor: "#fff5e0", padding: "0px"}}>
         <Navbar key={'md'} expand={'md'} className="mb-3">
           <Container fluid>
-          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'md'}`}/>
+          {/* <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'md'}`}/> */}
             
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${'md'}`}
@@ -23,11 +23,10 @@ const NavbarS = () => {
               placement="end"
             >
               
-              <Offcanvas.Header closeButton >
+              {/* <Offcanvas.Header closeButton >
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${'md'}`}>
-                  <pre>    Menu</pre>
                 </Offcanvas.Title>
-              </Offcanvas.Header>
+              </Offcanvas.Header> */}
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <NavLink to ="/about">Home</NavLink>
