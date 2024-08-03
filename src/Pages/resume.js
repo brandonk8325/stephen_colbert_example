@@ -65,21 +65,3 @@ const Resume = ({height}) => {
 };
  
 export default Resume;
-
-        {/* <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0", paddingBottom: "50px"}}>
-            <div style = {{paddingRight: "50px"}}>
-                <button type = "button" onClick = {onDocumentClick} style = {{outline: "0", textAlign: "center", border: "none", padding: "7px 16px", minWidth: "300px", borderRadius: "4px", backgroundColor: "#f4e0b9", color: "000001", textDecoration: "none", display: "inline-block"}}> RESUME PDF </button>
-            </div>
-            <div style = {{paddingLeft: "50px"}}>
-                <button type = "button" onClick = {onImageClick} style = {{outline: "0", textAlign: "center", border: "none", padding: "7px 16px",  minWidth: "300px", borderRadius: "4px", backgroundColor: "#f4e0b9", color: "000001", textDecoration: "none", display: "inline-block"}}> HEADSHOT JPG </button>
-            </div>
-        </div>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0", paddingBottom: "50px"}}>
-            <div style = {{paddingTop: "0"}}>
-                <a href = {showDocument ? ResumePic : Image} download = {showDocument ? "resume.pdf" : "headshot.jpg"}>
-                    <button type = "button"  role = "link" style = {{outline: "0", textAlign: "center", border: "none", padding: "7px 16px",minWidth: "120px", borderRadius: "4px", backgroundColor: "#f4e0b9", color: "000001", textDecoration: "none", display: "inline-block"}}> 
-                        DOWNLOAD
-                    </button>
-                </a>
-            </div>
-        </div>  */}
