@@ -3,6 +3,7 @@ import Menu from "../../Components/menu";
 import { useRef } from "react";
 import { useState } from "react";
 import { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 const IndexMobile = () => {
 
@@ -33,11 +34,11 @@ const IndexMobile = () => {
             <img src = {require("../../static/stephen-main.jpg")} alt = "Main" width = "100%" height = "500vh"/>
                 <p style = {{fontSize: "35px", padding: "0", margin: "0", fontWeight: "bold", paddingBottom: "10px"}}>STEPHEN COLBERT</p>
                 <p style = {{padding: "0", margin: "0", fontSize: "25px", paddingBottom: "10px"}}>Actor and Entertainer</p>
-                <a href = "/contact">
-                    <button type = "button"  role = "link" onMouseOver = {(event) => over(event)} onMouseOut = {(event) => out(event)} style = {{fontSize: "40px", textAlign: "center", outline: "0", padding: "7px 16px", alignItems: "center",  border: "none", marginLeft: "auto", marginRight: "auto", borderRadius: "4px", backgroundColor: "#f4e0b9", color: "000001", textDecoration: "none", display: "inline-flex", height: "60px", width: "225px"}}> 
-                            CONTACT
+                <NavLink to = "/contact">
+                    <button type = "button"  role = "link" onMouseOver = {(event) => over(event)} onMouseOut = {(event) => out(event)} style = {{fontSize: "30px", textAlign: "center", outline: "0", alignItems: "center",  border: "none", padding: "7px 16px",minWidth: "120px", borderRadius: "4px", backgroundColor: "#f4e0b9",  textDecoration: "none", display: "inline-flex", height: "60px", width: "180px"}}> 
+                            <p >CONTACT</p>
                     </button>
-                </a>
+                </NavLink>
         </div>
         
         </div>

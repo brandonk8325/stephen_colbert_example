@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Index = () => {
 
@@ -24,11 +25,11 @@ const Index = () => {
                 <h4>Actor and Entertainer</h4>
             </div>
             <div style={{ alignItems: "center", justifyContent: "center",width: "100%", backgroundColor: "#fff5e0", textAlign: "center", position: "relative", top: "-50px", display: "flex"}}>
-                <a href = "/contact">
+                <NavLink to = "/contact">
                     <button type = "button"  role = "link" onMouseOver = {(event) => over(event)} onMouseOut = {(event) => out(event)} style = {{fontSize: "30px", textAlign: "center", outline: "0", alignItems: "center",  border: "none", padding: "7px 16px",minWidth: "120px", borderRadius: "4px", backgroundColor: "#f4e0b9", color: "000001", textDecoration: "none", display: "inline-flex", height: "60px", width: "180px"}}> 
                             CONTACT
                     </button>
-                </a>
+                </NavLink>
             </div>
             </div>
         </div>
