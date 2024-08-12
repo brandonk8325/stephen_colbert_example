@@ -20,11 +20,11 @@ const IndexMobile = () => {
         <>
         <div style = {{display: "grid", }}>
             <div style = {{display: "block", paddingBottom: "40px", backgroundColor: "#fff5e0"}}>
-                <div style = {{display: "flex", float: "left", paddingLeft: "5%",  height: "0vh"}}>
+                <div style = {{display: "flex", float: "left", paddingLeft: "5%",  height: "0vh", width: "40%"}}>
                     <Menu />
                 </div>
-                <div style = {{display: "flex", float: "right", paddingRight: "5%"}}>   
-                    <p style = {{fontSize: "30px", margin: "0"}}>STEPHEN COLBERT</p>
+                <div style = {{display: "flex", float: "right", paddingRight: "5%", width: "60%"}}>   
+                    <p style = {{fontSize: "25px", margin: "0"}}>STEPHEN COLBERT</p>
                 </div>
             </div>
       <div  style = {{minHeight: "80vh", backgroundColor: "#fff5e0"}}>
