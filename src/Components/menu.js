@@ -31,7 +31,6 @@ const Menu = (props) => {
       opacity: 1,
       transform: "scale(1)",
       backgroundColor: "lightgreen",
-      position: "absolute",
       height: "100%",
       top: 0,
       bottom: 0,
