@@ -1,4 +1,5 @@
 import React from "react";
+
 const Index = () => {
 
     const over = event => {
@@ -9,12 +10,12 @@ const Index = () => {
         const el = event.target;
         el.style.backgroundColor = "#f4e0b9"
     }
-
     return ( 
+        
         <div style={{backgroundColor: "#fff5e0", minHeight: "70vh", position: "relative"}}>
             <div style={{margin: "0", position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center",  width: "100%", backgroundColor: "#fff5e0"}}>
-                <img src = {require("../static/stephen-main.jpg")} alt = "Main" width = "700vw"/>
+                <img src = {require("../../static/stephen-main.jpg")} alt = "Main" width = "700vw"/>
             </div>
             <div style={{ alignItems: "center", justifyContent: "center",width: "100%", backgroundColor: "#fff5e0", textAlign: "center", position: "relative", top: "-20px"}}>
                 <h1>STEPHEN COLBERT</h1>

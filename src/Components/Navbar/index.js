@@ -9,36 +9,41 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { useMediaQuery } from 'react-responsive';
+import ReactDOM from "react-dom";
+import { MdClose, MdMenu } from "react-icons/md";
+import { useTransition, animated, config } from "react-spring";
+import Menu from "../menu.js";
 
 const NavbarS = () => {
+  const isPhone = useMediaQuery({ query: '(max-width: 787px)' });
+
     return (
-<div  style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "10vh", width: "100%", backgroundColor: "#fff5e0", padding: "0px"}}>
+      <>
+      
+      <div  style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "10vh", width: "100%", backgroundColor: "#fff5e0", padding: "0px"}}>
+        {!isPhone && 
+          <>
+          <div  style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "10vh", width: "100%", backgroundColor: "#fff5e0", padding: "0px"}}>
         <Navbar key={'md'} expand={'md'} className="mb-3">
-          <Container fluid>
-          {/* <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'md'}`}/> */}
-            
-            <Navbar.Offcanvas
-              id={`offcanvasNavbar-expand-${'md'}`}
-              aria-labelledby={`offcanvasNavbarLabel-expand-${'md'}`}
-              placement="end"
-            >
-              
-              {/* <Offcanvas.Header closeButton >
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${'md'}`}>
-                </Offcanvas.Title>
-              </Offcanvas.Header> */}
-              <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <NavLink to ="/about">Home</NavLink>
-                  <NavLink to ="/portfolio">Home</NavLink>
-                  <NavLink to ="/resume">Home</NavLink>
-                  <NavLink to ="/contact">Home</NavLink>
+                      <NavLink to ="/about">About</NavLink> 
+                      <NavLink to ="/portfolio">Portfolio</NavLink>
+                      <NavLink to ="/resume">Resume</NavLink>
+                      <NavLink to ="/contact">Contact</NavLink>
+                      <NavLink to ="/gallery">Gallery</NavLink>
                   </Nav>
-              </Offcanvas.Body>
-            </Navbar.Offcanvas>
-          </Container>
         </Navbar>
-    </div>
+        </div>
+        </>
+        }
+        
+        {isPhone && 
+        <>
+        </>
+        }
+        </div>
+        </>
     );
 };
 

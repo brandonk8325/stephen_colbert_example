@@ -1,8 +1,8 @@
 import React from "react";
-import Image from "../static/pointing.png";
+import Image from "../../static/pointing.png";
 const Contact = () => {
     return (
-
+        <>
         <div style={{backgroundColor: "#fff5e0", minHeight: "70vh"}}>
         <div style={{ alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0", display: "block"}}>
             <div style = {{display:"flex",  alignItems: "center", justifyContent: "center", width: "100%", backgroundColor: "#fff5e0"}}>
@@ -18,6 +18,7 @@ const Contact = () => {
             </div>
         </div>
         </div>
+        </>
     );
 };
  
