@@ -27,7 +27,7 @@ const IndexMobile = () => {
       <div  style = {{minHeight: "80vh", backgroundColor: "#fff5e0"}}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "center"}}>
         <div style = {{width: "80%", padding: "0", margin: "0"}}>
-            <img src = {require("../../static/stephen-main.jpg")} alt = "Main" width = "500vw" height = "500vh"/>
+            <img src = {require("../../static/stephen-main.jpg")} alt = "Main" width = "100%" height = "500vh"/>
                 <p style = {{fontSize: "35px", padding: "0", margin: "0", fontWeight: "bold", paddingBottom: "10px"}}>STEPHEN COLBERT</p>
                 <p style = {{padding: "0", margin: "0", fontSize: "25px", paddingBottom: "10px"}}>Actor and Entertainer</p>
                 <a href = "/contact">
