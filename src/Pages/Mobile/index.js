@@ -23,7 +23,7 @@ const IndexMobile = () => {
                 <div style = {{display: "flex", float: "left", paddingLeft: "5%",  height: "0vh", width: "40%"}}>
                     <Menu />
                 </div>
-                <div style = {{display: "flex", float: "right", paddingRight: "5%", width: "60%"}}>   
+                <div style = {{display: "flex", float: "right", paddingRight: "5%", width: "60vw"}}>   
                     <p style = {{fontSize: "25px", margin: "0"}}>STEPHEN COLBERT</p>
                 </div>
             </div>
