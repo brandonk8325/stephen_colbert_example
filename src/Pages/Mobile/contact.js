@@ -4,12 +4,12 @@ const Contactmobile = () => {
     return (
         <>
         <div style = {{display: "grid", }}>
-            <div style = {{display: "block", paddingBottom: "40px", backgroundColor: "#fff5e0"}}>
-                <div style = {{display: "flex", float: "left", paddingLeft: "5%", height: "0vh"}}>
+            <div style = {{display: "block", paddingBottom: "40px", paddingTop: "20px", backgroundColor: "#fff5e0"}}>
+                <div style = {{display: "flex", float: "left", paddingLeft: "5%",  height: "0vh"}}>
                     <Menu />
                 </div>
-                <div style = {{display: "flex", float: "right", paddingRight: "5%"}}>   
-                    <p style = {{fontSize: "30px", margin: "0"}}>STEPHEN COLBERT</p>
+                <div style = {{display: "flex", float: "right", paddingRight: "5%", justifyItems: "center", alignItems: "center", paddingTop: "5px"}}>   
+                    <p style = {{fontSize: "20px", margin: "0"}}>STEPHEN COLBERT</p>
                 </div>
             </div>
         <div  style = {{minHeight: "75vh", backgroundColor: "#fff5e0", padding: "0"}}>

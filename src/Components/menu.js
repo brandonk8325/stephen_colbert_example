@@ -10,6 +10,8 @@ const styleToggleButtonBefore = {
     color: "rgb(36,36,36)",
     border: "none",
      backgroundColor: "#fff5e0",
+     margin: "0",
+     padding: "0"
   };
 
   const styleToggleButtonAfter = {
@@ -79,7 +81,7 @@ const Menu = (props) => {
           )
         )}
       </div>
-      <div  style={{ postion: "absolute", display: "flex", alignItems: "center", justifyContent: "center", height: "10vh", width: "100%", backgroundColor: "#fff5e0", paddingTop: "100px"}}>
+      <div  style={{ postion: "absolute", display: "flex", alignItems: "center", justifyContent: "center", width: "100%", backgroundColor: "#fff5e0"}}>
 
       </div>
       {fullscreenMenu(

@@ -30,30 +30,34 @@ let container = useRef(null);
     <Router>
         <div ref = {container}>
         <HeaderBar />
-        <NavbarS />
-        <Routes>
+        
           
             {!isPhone && 
               <>
+              <NavbarS />
+              <Routes>
                 <Route path = "/" element ={<Index />} />
                 <Route path="/about" element={<About/>} />
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/resume" element={<Resume/>} />
                 <Route path="/contact" element={<Contact />}/> 
                 <Route path="/gallery" element={<Gallery/>}/>
+                </Routes>
               </>
               } 
               {isPhone && 
               <>
+              <Routes>
                 <Route path = "/" element = {<IndexMobile />} />
                 <Route path = "/about" element = {<Aboutmobile />} />
                 <Route path="/portfolio" element={<Portfoliomobile />} /> 
                 <Route path="/resume" element={<Resumemobile/>} />
                 <Route path="/contact" element={<Contactmobile />}/> 
                 <Route path="/gallery" element={<Gallerymobile/>}/>
+                </Routes>
               </>
               }
-        </Routes>
+        
         <FooterBar />
         </div>
     </Router>
