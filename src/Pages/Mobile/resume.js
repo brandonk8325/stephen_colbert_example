@@ -17,11 +17,15 @@ const Resumemobile = () => {
 
     return (
         <>
-        <div  style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "0vh", width: "100%", backgroundColor: "#fff5e0", padding: "0px", paddingTop: "30px"}}>
-            <div style = {{paddingLeft: "calc(50vw - 3rem  + 100px)"}}>
-                <Menu />
+         <div style = {{display: "grid", }}>
+            <div style = {{display: "block", paddingBottom: "40px", backgroundColor: "#fff5e0"}}>
+                <div style = {{display: "flex", float: "left", paddingLeft: "10%", backgroundColor: "green", height: "0vh"}}>
+                    <Menu />
+                </div>
+                <div style = {{display: "flex", float: "right", paddingRight: "10%"}}>   
+                    <p style = {{fontSize: "30px", margin: "0"}}>STEPHEN COLBERT</p>
+                </div>
             </div>
-        </div>
         <div  style = {{minHeight: "75vh", backgroundColor: "#fff5e0", padding: "0"}}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "center", padding: "0"}}>
         <div style = {{width: "80%"}}>
@@ -36,7 +40,7 @@ const Resumemobile = () => {
                         </a>
                     </div>
                     <div style = {{display: "flex"}}>
-                        <img src = {ResumePNG} alt = "" width = "400px"/>
+                        <img src = {ResumePNG} alt = "" width = "100%"/>
                     {/* <Document file = {ResumePic}>
                         <Page pageNumber={1} width = "400" renderAnnotationLayer={false} renderTextLayer={false}/>
                     </Document> */}
@@ -52,7 +56,7 @@ const Resumemobile = () => {
                         </a>
                     </div>
                     <div style = {{display: "block"}}>
-                        <img src = {Headshot} alt = "" width = "400px"/>
+                        <img src = {Headshot} alt = "" width = "100%"/>
                     </div>
                 </div>
                 
@@ -60,6 +64,7 @@ const Resumemobile = () => {
         </div>
         
         </div>
+      </div>
       </div>
         </>
     );

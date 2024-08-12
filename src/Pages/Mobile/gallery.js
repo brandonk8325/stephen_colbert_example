@@ -10,11 +10,15 @@ import Six from "../../static/Image_6.jpg"
 const Gallerymobile = () => {
     return (
         <>
-        <div  style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "0vh", width: "100%", backgroundColor: "#fff5e0", padding: "0px", paddingTop: "30px"}}>
-            <div style = {{paddingLeft: "calc(50vw - 3rem  + 100px)"}}>
-                <Menu />
+        <div style = {{display: "grid", }}>
+            <div style = {{display: "block", paddingBottom: "40px", backgroundColor: "#fff5e0"}}>
+                <div style = {{display: "flex", float: "left", paddingLeft: "10%", backgroundColor: "green", height: "0vh"}}>
+                    <Menu />
+                </div>
+                <div style = {{display: "flex", float: "right", paddingRight: "10%"}}>   
+                    <p style = {{fontSize: "30px", margin: "0"}}>STEPHEN COLBERT</p>
+                </div>
             </div>
-        </div>
         <div  style = {{minHeight: "75vh", backgroundColor: "#fff5e0", padding: "0"}}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "center", padding: "0"}}>
         <div style = {{width: "80%"}}>
@@ -47,7 +51,7 @@ const Gallerymobile = () => {
                 </div>
                 </div>    
         </div>
-        
+        </div>
         </div>
       </div>
         </>
