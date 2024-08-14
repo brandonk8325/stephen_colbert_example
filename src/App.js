@@ -21,19 +21,26 @@ import Resumemobile from "./Pages/Mobile/resume.js";
 import Gallerymobile from "./Pages/Mobile/gallery.js";
 import './App.css';
 import { useMediaQuery } from 'react-responsive'
-import Menu from "./Components/menu.js";
+import Menu from "./Components/Menu/menu.js";
+import { Helmet } from "react-helmet";
 
 function App() {
 const isPhone = useMediaQuery({ query: '(max-width: 787px)' });
 let container = useRef(null);
   return (
+    <>
+    <Helmet>
+      <meta content="#fdf5e2" data-react-helmet="true" name="theme-color" />
+    </Helmet>
+
     <Router>
         <div ref = {container}>
-        <HeaderBar />
+        
         
           
             {!isPhone && 
               <>
+              <HeaderBar />
               <NavbarS />
               <Routes>
                 <Route path = "/" element ={<Index />} />
@@ -61,6 +68,7 @@ let container = useRef(null);
         <FooterBar />
         </div>
     </Router>
+    </>
   );
 }
 

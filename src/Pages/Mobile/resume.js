@@ -1,8 +1,9 @@
 import React from "react";
-import Menu from "../../Components/menu";
+import Menu from "../../Components/Menu/menu";
 import Headshot from "../../static/headshot.jpg";
 import ResumePNG from "../../static/resumePNG.png";
 import ResumePic from "../../static/Resume.pdf";
+import { HeaderLink } from "../../Components/Menu/MenuElements";
 
 
 const Resumemobile = () => {
@@ -18,15 +19,17 @@ const Resumemobile = () => {
     return (
         <>
          <div style = {{display: "grid", }}>
-            <div style = {{display: "block", paddingBottom: "40px", paddingTop: "20px", backgroundColor: "#fff5e0"}}>
-                <div style = {{display: "flex", float: "left", paddingLeft: "5%",  height: "0vh"}}>
+            <div style = {{display: "block", height: "10vh", backgroundColor: "#fff5e0"}}>
+                <div style = {{display: "flex", float: "right", paddingRight: "15%",  height: "0vh", paddingTop: "20px"}}>
                     <Menu />
                 </div>
-                <div style = {{display: "flex", float: "right", paddingRight: "5%", justifyItems: "center", alignItems: "center", paddingTop: "5px"}}>   
-                    <p style = {{fontSize: "20px", margin: "0"}}>STEPHEN COLBERT</p>
+                <div style = {{display: "flex", float: "left", paddingLeft: "5%", justifyItems: "center", alignItems: "center", paddingTop: "32px"}}>   
+                        <HeaderLink to="/" activeStyle>
+                                STEPHEN COLBERT
+                        </HeaderLink>
                 </div>
             </div>
-        <div  style = {{minHeight: "75vh", backgroundColor: "#fff5e0", padding: "0"}}>
+        <div  style = {{minHeight: "80vh", backgroundColor: "#fff5e0", padding: "0"}}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "center", padding: "0"}}>
         <div style = {{width: "80%"}}>
             <p style = {{fontSize: "50px", padding: "0", margin: "0", paddingBottom: "15px"}}>RESUME</p>

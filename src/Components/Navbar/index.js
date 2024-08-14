@@ -13,7 +13,7 @@ import { useMediaQuery } from 'react-responsive';
 import ReactDOM from "react-dom";
 import { MdClose, MdMenu } from "react-icons/md";
 import { useTransition, animated, config } from "react-spring";
-import Menu from "../menu.js";
+import Menu from "../Menu/menu.js";
 
 const NavbarS = () => {
   const isPhone = useMediaQuery({ query: '(max-width: 787px)' });

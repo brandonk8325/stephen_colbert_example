@@ -3,7 +3,7 @@ import { useState } from "react";
 import ReactDOM from "react-dom";
 import { MdClose, MdMenu } from "react-icons/md";
 import { useTransition, animated, config } from "react-spring";
-import { NavLink } from "./Navbar/NavbarElements";
+import { NavLink } from "../Navbar/NavbarElements";
 
 const styleToggleButtonBefore = {
     fontSize: "3rem",
@@ -52,7 +52,7 @@ const Menu = (props) => {
     },
     enter: {
       opacity: 1,
-      transform: "scale(1)", position: "fixed"
+      transform: "scale(1)"
     },
     leave: { opacity: 0, transform: "scale(0)" },
     config: config.stiff
