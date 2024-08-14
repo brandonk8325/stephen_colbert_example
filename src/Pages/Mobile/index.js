@@ -42,7 +42,7 @@ const IndexMobile = () => {
                 <p style = {{fontSize: "35px", padding: "0", margin: "0", fontWeight: "bold", paddingBottom: "10px"}}>STEPHEN COLBERT</p>
                 <p style = {{padding: "0", margin: "0", fontSize: "25px", paddingBottom: "10px"}}>Actor and Entertainer</p>
                 <NavLink to = "/contact">
-                    <button type = "button"  role = "link" onMouseOver = {(event) => over(event)} onMouseOut = {(event) => out(event)} onMouseDown={(event) => click(event)}  style = {{fontSize: "30px", textAlign: "center", outline: "0", alignItems: "center",  border: "none", padding: "7px 16px",minWidth: "120px", borderRadius: "4px", backgroundColor: "#f4e0b9",  textDecoration: "none", display: "inline-flex", height: "60px", width: "180px"}}> 
+                    <button type = "button"  role = "link" onMouseOver = {(event) => over(event)} onMouseOut = {(event) => out(event)} onMouseDown={(event) => click(event)}  style = {{fontSize: "30px", color: "black", textAlign: "center", outline: "0", alignItems: "center",  border: "none", padding: "7px 16px",minWidth: "120px", borderRadius: "4px", backgroundColor: "#f4e0b9",  textDecoration: "none", display: "inline-flex", height: "60px", width: "180px"}}> 
                             CONTACT
                     </button>
                 </NavLink>

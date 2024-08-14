@@ -29,9 +29,6 @@ const isPhone = useMediaQuery({ query: '(max-width: 787px)' });
 let container = useRef(null);
   return (
     <>
-    <Helmet>
-      <meta content="#fdf5e2" data-react-helmet="true" name="theme-color" />
-    </Helmet>
 
     <Router>
         <div ref = {container}>
