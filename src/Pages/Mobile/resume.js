@@ -1,7 +1,7 @@
 import React from "react";
 import Menu from "../../Components/Menu/menu";
 import Headshot from "../../static/headshot.jpg";
-import ResumePNG from "../../static/resumePNG.png";
+import ResumePNG from "../../static/stephen-headshot.jpg";
 import ResumePic from "../../static/Resume.pdf";
 import { HeaderLink } from "../../Components/Menu/MenuElements";
 

@@ -20,7 +20,7 @@ const Contactmobile = () => {
         <div style = {{width: "80%"}}>
             <p style = {{fontSize: "50px", padding: "0", margin: "0", paddingBottom: "15px"}}>CONTACT</p>
             <div style = {{display: "flex", paddingTop: "1.5%", paddingBottom: "1.5%",   alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0"}}>
-                <div style={{textAlign: "left", width: "500px"}}>
+                <div style={{textAlign: "left"}}>
                     <p style = {{fontSize: "40px", fontWeight: "bold"}}>EMAIL</p>
                     <p style = {{fontSize: "20px"}}>email@email.com</p>
                     <p style = {{fontSize: "40px", fontWeight: "bold"}}>PHONE NUMBER</p>

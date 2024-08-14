@@ -25,7 +25,7 @@ const IndexMobile = () => {
         
         <>
         <div style = {{display: "grid", }}>
-            <div style = {{display: "block", height: "10vh", backgroundColor: "#fff5e0"}}>
+            <div style = {{display: "block", height: "10vh", backgroundColor: "#fff5e0", paddingBottom: "10px"}}>
                 <div style = {{display: "flex", float: "right", paddingRight: "15%",  height: "0vh", paddingTop: "20px"}}>
                     <Menu />
                 </div>
@@ -41,11 +41,13 @@ const IndexMobile = () => {
             <img src = {require("../../static/stephen-headshot.jpg")} alt = "Main" width = "100%" />
                 <p style = {{fontSize: "35px", padding: "0", margin: "0", fontWeight: "bold", paddingBottom: "10px"}}>STEPHEN COLBERT</p>
                 <p style = {{padding: "0", margin: "0", fontSize: "25px", paddingBottom: "10px"}}>Actor and Entertainer</p>
-                <NavLink to = "/contact">
-                    <button type = "button"  role = "link" onMouseOver = {(event) => over(event)} onMouseOut = {(event) => out(event)} onMouseDown={(event) => click(event)}  style = {{fontSize: "30px", color: "black", textAlign: "center", outline: "0", alignItems: "center",  border: "none", padding: "7px 16px",minWidth: "120px", borderRadius: "4px", backgroundColor: "#f4e0b9",  textDecoration: "none", display: "inline-flex", height: "60px", width: "180px"}}> 
-                            CONTACT
-                    </button>
-                </NavLink>
+                <div style = {{paddingBottom: "20px"}}>
+                    <NavLink to = "/contact">
+                        <button type = "button"  role = "link" onMouseOver = {(event) => over(event)} onMouseOut = {(event) => out(event)} onMouseDown={(event) => click(event)}  style = {{fontSize: "30px", color: "black", textAlign: "center", outline: "0", alignItems: "center",  border: "none", padding: "7px 16px",minWidth: "120px", borderRadius: "4px", backgroundColor: "#f4e0b9",  textDecoration: "none", display: "inline-flex", height: "60px", width: "180px"}}> 
+                                CONTACT
+                     </button>
+                 </NavLink>
+                </div>
         </div>
         
         </div>
