@@ -77,7 +77,7 @@ const Menu = (props) => {
       {openButton((props, item ) =>
           !item ? (
             <animated.div  style={props}>
-              <div style = {{paddingTop: "2px"}}>
+              <div style = {{}}>
               <button style={styleToggleButtonBefore} onClick={toggleMenu}>
                 <MdMenu ></MdMenu>
               </button>
@@ -85,7 +85,7 @@ const Menu = (props) => {
             </animated.div>
           ) : (
             <animated.div  style={props}>
-              <div style = {{paddingTop: "2px"}}>
+              <div style = {{ }}>
               <button style={styleToggleButtonAfter} onClick={toggleMenu}>
                 <MdClose></MdClose>
               </button>

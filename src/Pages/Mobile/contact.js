@@ -9,7 +9,7 @@ const Contactmobile = () => {
                 <div style = {{display: "flex", float: "right", paddingRight: "15%",  height: "0vh", paddingTop: "20px"}}>
                     <Menu />
                 </div>
-                <div style = {{display: "flex", float: "left", paddingLeft: "5%", justifyItems: "center", alignItems: "center", paddingTop: "32px"}}>   
+                <div style = {{display: "flex", float: "left", paddingLeft: "5%", justifyItems: "center", alignItems: "center", paddingTop: "3px"}}>   
                         <HeaderLink to="/" activeStyle>
                                 STEPHEN COLBERT
                         </HeaderLink>
