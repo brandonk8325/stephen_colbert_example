@@ -3,8 +3,10 @@ import React from "react";
 import { useRef } from "react";
 import { useEffect } from "react";
 
-export default function Frame ({ssrc, swidth, sheight}) {
 
+    
+export default function Frame ({ssrc, swidth,  saspectRatio}) {
+    
     // const container = useRef()
     // useEffect(() => {
     //     const frm = document.createElement('iframe')
@@ -14,8 +16,11 @@ export default function Frame ({ssrc, swidth, sheight}) {
     //     frm.scrolling = 'no'       
     //     container.current.appendChild(frm)
     // })
+    
 
     return(
-        <iframe width={swidth} height = {sheight} src = {ssrc} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <>
+        <iframe style = {{aspectRatio: saspectRatio}}id = "frame" width={swidth}  src = {ssrc} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </>
     )
 }
