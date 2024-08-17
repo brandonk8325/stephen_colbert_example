@@ -13,9 +13,9 @@ const styleToggleButtonBefore = {
      width: "40px",
      height: "40px",
      color: "black",
+     fontSize: "3rem",
      backgroundColor: "transparent",
-     backfaceVisibility: "visibile",
-     paddingRight: "15px"
+     backfaceVisibility: "visibile"
   };
 
   const styleToggleButtonAfter = {
@@ -25,9 +25,9 @@ const styleToggleButtonBefore = {
      width: "40px",
      height: "40px",
      color: "black",
+     fontSize: "3rem",
      backgroundColor: "transparent",
-     backfaceVisibility: "visibile",
-     paddingRight: "15px"
+     backfaceVisibility: "visibile"
   };
 
 const Menu = (props) => {       
@@ -76,15 +76,15 @@ const Menu = (props) => {
       <div style={{ position: "relative", zIndex: 20, margin: "0", padding: "0" }}>
       {openButton((props, item ) =>
           !item ? (
-            <animated.div  style={props}>
+            <animated.div  style={{paddingTop: "2px"}}>
               <button style={styleToggleButtonBefore} onClick={toggleMenu}>
-                <MdMenu style = {{width: "60px", height: "60px"}}></MdMenu>
+                <MdMenu ></MdMenu>
               </button>
             </animated.div>
           ) : (
-            <animated.div  style={props}>
+            <animated.div  style={{paddingTop: "2px"}}>
               <button style={styleToggleButtonAfter} onClick={toggleMenu}>
-                <MdClose style = {{width: "60px", height: "60px"}}></MdClose>
+                <MdClose></MdClose>
               </button>
             </animated.div>
           )
