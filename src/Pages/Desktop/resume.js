@@ -1,7 +1,7 @@
 import {React, useState} from "react";
 import {Document, Page, pdfjs } from "react-pdf";
 import Headshot from "../../static/headshot.jpg";
-import ResumePNG from "../../static/resumePNG.png";
+import ResumePNG from "../../static/stephen-headshot.jpg";
 import ResumePic from "../../static/Resume.pdf";
 
 const Resume = ({height}) => {

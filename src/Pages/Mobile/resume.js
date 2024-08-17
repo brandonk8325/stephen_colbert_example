@@ -43,7 +43,7 @@ const Resumemobile = () => {
                         </a>
                     </div>
                     <div style = {{display: "flex"}}>
-                        <img src = {ResumePNG} alt = "" width = "100%"/>
+                        <img style = {{aspectRatio: "750/999"}}src = {ResumePNG} alt = "" width = "100%"/>
                     {/* <Document file = {ResumePic}>
                         <Page pageNumber={1} width = "400" renderAnnotationLayer={false} renderTextLayer={false}/>
                     </Document> */}
@@ -59,7 +59,7 @@ const Resumemobile = () => {
                         </a>
                     </div>
                     <div style = {{display: "block"}}>
-                        <img src = {Headshot} alt = "" width = "100%"/>
+                        <img style = {{aspectRatio: "1"}}src = {Headshot} alt = "" width = "100%"/>
                     </div>
                 </div>
                 

@@ -1,6 +1,8 @@
 import React from "react";
 import Menu from "../../Components/Menu/menu";
 import { HeaderLink } from "../../Components/Menu/MenuElements";
+import Frame from "../../Components/iframe";
+
 const Portfoliomobile = () => {
     return (
         <>
@@ -22,27 +24,28 @@ const Portfoliomobile = () => {
             <div style = {{display: "flex", paddingTop: "1.5%", paddingBottom: "1.5%",   alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0"}}>
                 <div style = {{paddingBottom: "1.5%",  width: "100%", display: "grid"}}>
                     <div style = {{paddingBottom: "5%"}}>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/oACoGd4AZwk?si=QXiAjXEsimE76lP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <Frame ssrc= "https://www.youtube.com/embed/oACoGd4AZwk?si=i_aditEm6qQ1GG9J" swidth = "100%" sheight = "200px"/>
+                        {/*<iframe style = {{aspectRatio: "560/315"}}width="100%" loading = "lazy" src="https://www.youtube.com/embed/oACoGd4AZwk?si=QXiAjXEsimE76lP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>*/}
                         <h4 style = {{ display: "flex",  alignItems: "center", justifyContent: "center", padding: "0", margin: "0", paddingBottom: "15px"}}>Caption!</h4>
                     </div>
                     <div style = {{ paddingBottom: "5%"}}>
-                        <iframe width="100%" height = "200px" src="https://www.youtube.com/embed/oACoGd4AZwk?si=QXiAjXEsimE76lP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <Frame ssrc= "https://www.youtube.com/embed/oACoGd4AZwk?si=QXiAjXEsimE76lP4" swidth = "100%"/>
                         <h4 style = {{ display: "flex",  alignItems: "center", justifyContent: "center",padding: "0", margin: "0", paddingBottom: "15px"}}>Caption!</h4>
                     </div>
                     <div style = {{paddingBottom: "5%"}}>
-                        <iframe width="100%" height = "300px" src="https://www.youtube.com/embed/oACoGd4AZwk?si=QXiAjXEsimE76lP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <Frame ssrc= "https://www.youtube.com/embed/oACoGd4AZwk?si=QXiAjXEsimE76lP4" swidth = "100%"/>
                         <h4 style = {{ display: "flex",  alignItems: "center", justifyContent: "center", padding: "0", margin: "0", paddingBottom: "15px"}}>Caption!</h4>
                     </div>
                     <div style = {{paddingBottom: "5%"}}>
-                        <iframe width="100%" height = "300px" src="https://www.youtube.com/embed/oACoGd4AZwk?si=QXiAjXEsimE76lP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <Frame ssrc= "https://www.youtube.com/embed/oACoGd4AZwk?si=QXiAjXEsimE76lP4" swidth = "100%"/>
                         <h4 style = {{ display: "flex",  alignItems: "center", justifyContent: "center", padding: "0", margin: "0", paddingBottom: "15px"}}>Caption!</h4>
                     </div> 
                     <div style = {{ paddingBottom: "5%"}}>
-                        <iframe width="100%" height = "300px" src="https://www.youtube.com/embed/PcNRQKRJX1E?si=dbeBbMLv_h6_g5pj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <Frame ssrc= "https://www.youtube.com/embed/oACoGd4AZwk?si=QXiAjXEsimE76lP4" swidth = "100%"/>
                         <h4 style = {{ display: "flex",  alignItems: "center", justifyContent: "center", padding: "0", margin: "0", paddingBottom: "15px"}}>Caption!</h4>
                     </div>
                     <div style = {{}}>
-                        <iframe width="100%" height = "300px" src="https://www.youtube.com/embed/kmAKZFPpbOU?si=OnomRpAFOu03qUW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <Frame ssrc= "https://www.youtube.com/embed/oACoGd4AZwk?si=QXiAjXEsimE76lP4" swidth = "100%"/>
                         <h4 style = {{ display: "flex",  alignItems: "center", justifyContent: "center", padding: "0", margin: "0", paddingBottom: "15px"}}>Caption!</h4>
                     </div>
                 </div>

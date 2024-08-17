@@ -4,21 +4,26 @@ import ReactDOM from "react-dom";
 import { MdClose, MdMenu } from "react-icons/md";
 import { useTransition, animated, config } from "react-spring";
 import { NavLink } from "../Navbar/NavbarElements";
+import Open from "../../static/55003.png";
 
 const styleToggleButtonBefore = {
-    fontSize: "3rem",
-    color: "rgb(36,36,36)",
     border: "none",
-     backgroundColor: "#fff5e0",
      margin: "0",
-     padding: "0"
+     padding: "0", 
+     width: "60px",
+     height: "60px",
+     backgroundColor: "transparent",
+     backfaceVisibility: "visibile"
   };
 
   const styleToggleButtonAfter = {
-    fontSize: "3rem",
-    color: "rgb(36,36,36)",
-    border: "none",
-     backgroundColor: "lightgreen",
+    border:"none",
+    margin: "0",
+     padding: "0",
+     width: "60px",
+     height: "60px",
+     backgroundColor: "transparent",
+     backfaceVisibility: "visibile"
   };
 
 const Menu = (props) => {       
@@ -64,24 +69,24 @@ const Menu = (props) => {
 
   return (
     <>
-      <div style={{ position: "relative", zIndex: 20 }}>
+      <div style={{ position: "relative", zIndex: 20, margin: "0", padding: "0" }}>
       {openButton((props, item ) =>
           !item ? (
             <animated.div  style={props}>
               <button style={styleToggleButtonBefore} onClick={toggleMenu}>
-                <MdMenu />
+                <MdMenu style = {{width: "60px", height: "60px"}}></MdMenu>
               </button>
             </animated.div>
           ) : (
             <animated.div  style={props}>
               <button style={styleToggleButtonAfter} onClick={toggleMenu}>
-                <MdClose />
+                <MdClose style = {{width: "60px", height: "60px"}}></MdClose>
               </button>
             </animated.div>
           )
         )}
       </div>
-      <div  style={{ postion: "absolute", display: "flex", alignItems: "center", justifyContent: "center", width: "100%", backgroundColor: "#fff5e0"}}>
+      <div >
 
       </div>
       {fullscreenMenu(

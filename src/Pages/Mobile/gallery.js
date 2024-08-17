@@ -28,26 +28,26 @@ const Gallerymobile = () => {
             <div style = {{display: "flex", paddingTop: "1.5%", paddingBottom: "1.5%",   alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0"}}>
                 <div style = {{paddingBottom: "1.5%",  width: "100%", display: "grid"}}>
                     <div style = {{paddingBottom: "5%"}}>
-                        <img width = "100%" height = "300px" src = {One} alt = "1"/>
+                        <img style = {{aspectRatio: "1"}} width = "100%"  src = {One} alt = "1"/>
                         <h4 style = {{ display: "flex",  alignItems: "center", justifyContent: "center", padding: "0", margin: "0", paddingBottom: "15px"}}>Caption!</h4>
                     </div>
                     <div style = {{ paddingBottom: "5%"}}>
-                    <img width = "100%" height = "300px" src = {Two} alt = "2"/>
+                    <img width = "100%" style = {{aspectRatio: "1"}} src = {Two} alt = "2"/>
                     </div>
                     <div style = {{paddingBottom: "5%"}}>
-                    <img width = "100%" height = "300px" src = {Three} alt = "3"/>
+                    <img width = "100%" style = {{aspectRatio: "1"}}src = {Three} alt = "3"/>
                         <h4 style = {{ display: "flex",  alignItems: "center", justifyContent: "center", padding: "0", margin: "0", paddingBottom: "15px"}}>Caption!</h4>
                     </div>
                     <div style = {{paddingBottom: "5%"}}>
-                    <img width = "100%" height = "300px" src = {Four} alt = "4"/>
+                    <img width = "100%" style = {{aspectRatio: "1"}}src = {Four} alt = "4"/>
                         <h4 style = {{ display: "flex",  alignItems: "center", justifyContent: "center", padding: "0", margin: "0", paddingBottom: "15px"}}>Caption!</h4>
                     </div> 
                     <div style = {{ paddingBottom: "5%"}}>
-                    <img width = "100%" height = "300px" src = {Five} alt = "5"/>
+                    <img width = "100%" style = {{aspectRatio: "1"}} src = {Five} alt = "5"/>
                         <h4 style = {{ display: "flex",  alignItems: "center", justifyContent: "center", padding: "0", margin: "0", paddingBottom: "15px"}}>Caption!</h4>
                     </div>
                     <div style = {{}}>
-                    <img width = "100%" height = "300px" src = {Six} alt = "6"/>
+                    <img width = "100%" style = {{aspectRatio: "1"}} src = {Six} alt = "6"/>
                         <h4 style = {{ display: "flex",  alignItems: "center", justifyContent: "center", padding: "0", margin: "0", paddingBottom: "15px"}}>Caption!</h4>
                     </div>
                 </div>
