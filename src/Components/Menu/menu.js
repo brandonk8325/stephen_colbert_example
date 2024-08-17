@@ -76,16 +76,20 @@ const Menu = (props) => {
       <div style={{ position: "relative", zIndex: 20, margin: "0", padding: "0" }}>
       {openButton((props, item ) =>
           !item ? (
-            <animated.div  style={{paddingTop: "2px"}}>
+            <animated.div  style={props}>
+              <div style = {{paddingTop: "2px"}}>
               <button style={styleToggleButtonBefore} onClick={toggleMenu}>
                 <MdMenu ></MdMenu>
               </button>
+              </div>
             </animated.div>
           ) : (
-            <animated.div  style={{paddingTop: "2px"}}>
+            <animated.div  style={props}>
+              <div style = {{paddingTop: "2px"}}>
               <button style={styleToggleButtonAfter} onClick={toggleMenu}>
                 <MdClose></MdClose>
               </button>
+              </div>
             </animated.div>
           )
         )}
