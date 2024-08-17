@@ -12,7 +12,7 @@ const styleToggleButtonBefore = {
      padding: "0", 
      width: "40px",
      height: "40px",
-     color: "black",
+     color: "#1e245c",
      fontSize: "3rem",
      backgroundColor: "transparent",
      backfaceVisibility: "visibile"
@@ -24,7 +24,7 @@ const styleToggleButtonBefore = {
      padding: "0",
      width: "40px",
      height: "40px",
-     color: "black",
+     color: "#1e245c",
      fontSize: "3rem",
      backgroundColor: "transparent",
      backfaceVisibility: "visibile"
