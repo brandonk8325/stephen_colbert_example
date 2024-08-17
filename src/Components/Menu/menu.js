@@ -10,20 +10,24 @@ const styleToggleButtonBefore = {
     border: "none",
      margin: "0",
      padding: "0", 
-     width: "60px",
-     height: "60px",
+     width: "40px",
+     height: "40px",
+     color: "black",
      backgroundColor: "transparent",
-     backfaceVisibility: "visibile"
+     backfaceVisibility: "visibile",
+     paddingRight: "15px"
   };
 
   const styleToggleButtonAfter = {
     border:"none",
     margin: "0",
      padding: "0",
-     width: "60px",
-     height: "60px",
+     width: "40px",
+     height: "40px",
+     color: "black",
      backgroundColor: "transparent",
-     backfaceVisibility: "visibile"
+     backfaceVisibility: "visibile",
+     paddingRight: "15px"
   };
 
 const Menu = (props) => {       
