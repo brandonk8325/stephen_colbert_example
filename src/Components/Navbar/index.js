@@ -21,17 +21,16 @@ const NavbarS = () => {
     return (
       <>
       
-      <div  style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "10vh", width: "100%", backgroundColor: "#fff5e0", padding: "0px"}}>
+      <div  style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "10vh", width: "100%", backgroundColor: "#fff5e0", padding: "0px"}}>
         {!isPhone && 
           <>
-          <div  style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "10vh", width: "100%", backgroundColor: "#fff5e0", padding: "0px"}}>
+          <div  style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "10vh", width: "100%", backgroundColor: "#fff5e0", padding: "0px"}}>
         <Navbar key={'md'} expand={'md'} className="mb-3">
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                       <NavLink to ="/about">About</NavLink> 
-                      <NavLink to ="/portfolio">Portfolio</NavLink>
-                      <NavLink to ="/resume">Resume</NavLink>
+                      <NavLink to ="/faq">FAQ</NavLink>
+                      <NavLink to ="/pricing">Pricing</NavLink>
                       <NavLink to ="/contact">Contact</NavLink>
-                      <NavLink to ="/gallery">Gallery</NavLink>
                   </Nav>
         </Navbar>
         </div>
