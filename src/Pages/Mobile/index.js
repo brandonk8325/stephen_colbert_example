@@ -25,7 +25,7 @@ const IndexMobile = () => {
         
         <>
         <div style = {{display: "grid", }}>
-            <div style = {{display: "block", height: "10vh", backgroundColor: "#fff5e0", paddingBottom: "10px"}}>
+            <div style = {{display: "block", minHeight: "10vh", backgroundColor: "#fff5e0", paddingBottom: "10px"}}>
                 <div style = {{display: "flex", float: "right", paddingRight: "15%",  height: "0vh", paddingTop: "20px"}}>
                     <Menu />
                 </div>
