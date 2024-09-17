@@ -8,7 +8,7 @@ const HeaderBar = () => {
             <Header>
                     <div style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "10vh", width: "100%"}}>
                         <HeaderLink to="/" activeStyle>
-                                WABASH WEBSITES
+                                STEPHEN COLBERT
                         </HeaderLink>
                     </div>
             </Header>

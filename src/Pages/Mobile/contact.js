@@ -11,7 +11,7 @@ const Contactmobile = () => {
                 </div>
                 <div style = {{display: "flex", float: "left", paddingLeft: "5%", justifyItems: "center", alignItems: "center", paddingTop: "3px"}}>   
                         <HeaderLink to="/" activeStyle>
-                                WABASH WEBSITES
+                                STEPHEN COLBERT
                         </HeaderLink>
                 </div>
             </div>

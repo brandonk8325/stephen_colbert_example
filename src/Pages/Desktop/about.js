@@ -13,7 +13,7 @@ const About = () => {
                     <div>
                         <img style = {{float: "right", paddingLeft: "13px", paddingTop: "30px", margin: "0", paddingRight: "15px"}} src = {require("../../static/stephen-headshot.jpg")} alt = "Headshot" width = "275px"/>
                     </div>
-                    <p style = {{textAlign: "left", fontSize: "20px"}}> Wabash Websites is a wonderful website design, development, and management company founded by students at New York University and the University of Illinois. Wabash Websites specializes in accessible websites for students and young people interested in creative careers.Our websites allow students to promote their past and upcoming work and creative projects, enabling them to reach employers, collaborators, and to find work in professional projects, easily and digitally. </p>
+                    <p style = {{textAlign: "left", fontSize: "20px"}}> Stephen Colbert is an American actor and comedian known for his  work on <i>The Late Show With Stephen Colbert</i>. Stephen first gained notoriety as a correspondent for the Comedy Central satirical news program <i>The Daily Show</i>, where he portrayed the conservative character he later embellished in his program <i>The Colbert Report.</i>Stephen Colbert is an American actor and comedian known for his  work on <i>The Late Show With Stephen Colbert</i>. Stephen first gained notoriety as a correspondent for the Comedy Central satirical news program <i>The Daily Show</i>, where he portrayed the conservative character he later embellished in his program <i>The Colbert Report.</i></p>
                 </div>
             </div>
         </div>
