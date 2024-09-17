@@ -53,7 +53,7 @@ const Menu = (props) => {
     leave: { opacity: 0, transform: "scale(0.80)" },
     config: config.gentle
   });
-
+  let test = false;
   const openButton = useTransition(isOpen, {
     from: {
       opacity: 0,
@@ -117,11 +117,11 @@ const Menu = (props) => {
                     textAlign: "left"
                   }}
                 >
-                      <NavLink to ="/about" onClick={() => !!matchPath(this.props.location.pathname, "/about") ? item = item : item = !item}>About</NavLink> 
-                      <NavLink to ="/portfolio" onClick={() => !!matchPath(this.props.location.pathname, "/portfolio") ? item = item : item = !item}>Portfolio</NavLink>
-                      <NavLink to ="/resume" onClick={() => !!matchPath(this.props.location.pathname, "/resume") ? item = item : item = !item}>Resume</NavLink>
-                      <NavLink to ="/contact" onClick={() => !!matchPath(this.props.location.pathname, "/contact") ? item = item : item = !item}>Contact</NavLink>
-                      <NavLink to ="/gallery" onClick={() => !!matchPath(this.props.location.pathname, "/gallery") ? item = item : item = !item}>Gallery</NavLink>
+                      <NavLink to ="/about" onClick={() => !!matchPath(this.props.location.pathname, "/about") ? test = item : item = !item}>About</NavLink> 
+                      <NavLink to ="/portfolio" onClick={() => !!matchPath(this.props.location.pathname, "/portfolio") ? test = item: item = !item}>Portfolio</NavLink>
+                      <NavLink to ="/resume" onClick={() => !!matchPath(this.props.location.pathname, "/resume") ? test = item : item = !item}>Resume</NavLink>
+                      <NavLink to ="/contact" onClick={() => !!matchPath(this.props.location.pathname, "/contact") ? test = item : item = !item}>Contact</NavLink>
+                      <NavLink to ="/gallery" onClick={() => !!matchPath(this.props.location.pathname, "/gallery") ? test = item : item = !item}>Gallery</NavLink>
                 </div>
               </animated.div>
             )
