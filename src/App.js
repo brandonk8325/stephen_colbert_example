@@ -64,7 +64,7 @@ let container = useRef(null);
         
         <FooterBar />
         </div>
-    </Router>
+    </Router> 
     </>
   );
 }
