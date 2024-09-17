@@ -1,7 +1,7 @@
 import React from "react";
 import Menu from "../../Components/Menu/menu";
 import { HeaderLink } from "../../Components/Menu/MenuElements";
-const Contactmobile = () => {
+const Pricingmobile = () => {
     return (
         <>
         <div style = {{display: "grid", }}>
@@ -18,13 +18,12 @@ const Contactmobile = () => {
         <div  style = {{minHeight: "80vh", backgroundColor: "#fff5e0", padding: "0"}}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "center", padding: "0"}}>
         <div style = {{width: "80%"}}>
-            <p style = {{fontSize: "50px", padding: "0", margin: "0", paddingBottom: "15px"}}>CONTACT</p>
+            <p style = {{fontSize: "50px", padding: "0", margin: "0", paddingBottom: "15px"}}>PRICING</p>
             <div style = {{display: "flex", paddingTop: "1.5%", paddingBottom: "1.5%",   alignItems: "center", justifyContent: "center", height: "100%", width: "100%", backgroundColor: "#fff5e0"}}>
                 <div style={{textAlign: "left"}}>
-                    <p style = {{fontSize: "40px", fontWeight: "bold"}}>EMAIL</p>
-                    <p style = {{fontSize: "20px"}}>email@email.com</p>
-                    <p style = {{fontSize: "40px", fontWeight: "bold"}}>PHONE NUMBER</p>
-                    <p style = {{fontSize: "20px"}}>(777)-777-7777</p>
+                    <h1>Wabash Websites and $8/month!
+Plus the cost of a custom domain, usually $14/year
+</h1>
                 </div>
             </div>
         </div>
@@ -35,4 +34,4 @@ const Contactmobile = () => {
     );
 };
  
-export default Contactmobile;
+export default Pricingmobile;

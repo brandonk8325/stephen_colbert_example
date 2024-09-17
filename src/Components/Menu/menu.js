@@ -5,6 +5,7 @@ import { MdClose, MdMenu } from "react-icons/md";
 import { useTransition, animated, config } from "react-spring";
 import { NavLink } from "../Navbar/NavbarElements";
 import Open from "../../static/55003.png";
+import { matchPath } from 'react-router';
 
 const styleToggleButtonBefore = {
     border: "none",
@@ -116,12 +117,10 @@ const Menu = (props) => {
                     textAlign: "left"
                   }}
                 >
-                  <NavLink to ="/about">About</NavLink> 
-                      <NavLink to ="/portfolio">Portfolio</NavLink>
-                      <NavLink to ="/resume">Resume</NavLink>
-                      <NavLink to ="/contact">Contact</NavLink>
-                      <NavLink to ="/gallery">Gallery</NavLink>
-                </div>
+                      <NavLink to ="/about" onClick={() => !!matchPath(this.props.location.pathname, "/about") ? item = item : item = !item}>About</NavLink> 
+                      <NavLink to ="/pricing" onClick={() => !!matchPath(this.props.location.pathname, "/pricing") ? item = item : item = !item}>Pricing</NavLink>
+                      <NavLink to ="/faq" onClick={() => !!matchPath(this.props.location.pathname, "/faq") ? item = item : item = !item}>FAQ</NavLink>                  
+                    </div>
               </animated.div>
             )
         )}

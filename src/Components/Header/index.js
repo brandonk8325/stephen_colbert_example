@@ -6,9 +6,9 @@ const HeaderBar = () => {
     return (
         <>
             <Header>
-                    <div style={{ display: "flex", alignItems: "center", justifyContent: "center", height: "10vh", width: "100%"}}>
+                    <div style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "10vh", width: "100%"}}>
                         <HeaderLink to="/" activeStyle>
-                                STEPHEN COLBERT
+                                WABASH WEBSITES
                         </HeaderLink>
                     </div>
             </Header>
