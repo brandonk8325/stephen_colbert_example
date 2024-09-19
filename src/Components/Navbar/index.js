@@ -14,6 +14,7 @@ import ReactDOM from "react-dom";
 import { MdClose, MdMenu } from "react-icons/md";
 import { useTransition, animated, config } from "react-spring";
 import Menu from "../Menu/menu.js";
+import { bkgdClr } from "../../variables.js";
 
 const NavbarS = () => {
   const isPhone = useMediaQuery({ query: '(max-width: 787px)' });
@@ -21,10 +22,10 @@ const NavbarS = () => {
     return (
       <>
       
-      <div  style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "10vh", width: "100%", backgroundColor: "#fff5e0", padding: "0px"}}>
+      <div  style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "10vh", width: "100%", backgroundColor: bkgdClr, padding: "0px"}}>
         {!isPhone && 
           <>
-          <div  style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "10vh", width: "100%", backgroundColor: "#fff5e0", padding: "0px"}}>
+          <div  style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "10vh", width: "100%", backgroundColor: bkgdClr, padding: "0px"}}>
         <Navbar key={'md'} expand={'md'} className="mb-3">
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                       <NavLink to ="/about">About</NavLink> 

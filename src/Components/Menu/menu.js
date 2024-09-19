@@ -6,6 +6,7 @@ import { useTransition, animated, config } from "react-spring";
 import { NavLink } from "../Navbar/NavbarElements";
 import Open from "../../static/55003.png";
 import { matchPath } from 'react-router';
+import { menuBtnClr, menuClr, navLinkClr } from "../../variables";
 
 const styleToggleButtonBefore = {
     border: "none",
@@ -13,7 +14,6 @@ const styleToggleButtonBefore = {
      padding: "0", 
      width: "40px",
      height: "40px",
-     color: "#1e245c",
      fontSize: "3rem",
      backgroundColor: "transparent",
      backfaceVisibility: "visibile"
@@ -25,11 +25,13 @@ const styleToggleButtonBefore = {
      padding: "0",
      width: "40px",
      height: "40px",
-     color: "#1e245c",
      fontSize: "3rem",
      backgroundColor: "transparent",
      backfaceVisibility: "visibile"
   };
+
+  styleToggleButtonAfter.color = menuBtnClr;
+  styleToggleButtonBefore.color = menuBtnClr;
 
 const Menu = (props) => {       
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +44,7 @@ const Menu = (props) => {
     enter: {
       opacity: 1,
       transform: "scale(1)",
-      backgroundColor: "lightgreen",
+      backgroundColor: menuClr,
       height: "100%",
       top: 0,
       bottom: 0,

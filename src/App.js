@@ -23,12 +23,13 @@ import './App.css';
 import { useMediaQuery } from 'react-responsive'
 import Menu from "./Components/Menu/menu.js";
 import { Helmet } from "react-helmet";
+import { bkgdClr } from "./variables.js";
 
 function App() {
 const isPhone = useMediaQuery({ query: '(max-width: 787px)' });
 let container = useRef(null);
   return (
-    <>
+    <div style={{backgroundColor: bkgdClr}}>
 
     <Router>
         <div ref = {container}>
@@ -65,7 +66,7 @@ let container = useRef(null);
         <FooterBar />
         </div>
     </Router> 
-    </>
+    </div>
   );
 }
 
